@@ -1,3 +1,4 @@
+using ConsoleApp;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestProject
@@ -8,6 +9,8 @@ namespace UnitTestProject
         [TestMethod]
         public void TestMethod1()
         {
+            Utils u = new Utils();
+            Assert.AreEqual(5, u.Sum(2, 3));
         }
     }
 }

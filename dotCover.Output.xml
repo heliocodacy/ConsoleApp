@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root CoveredStatements="7" TotalStatements="10" CoveragePercent="70" ReportType="Xml" DotCoverVersion="2019.1.1">
+  <Assembly Name="ConsoleApp" CoveredStatements="3" TotalStatements="6" CoveragePercent="50">
+    <Namespace Name="ConsoleApp" CoveredStatements="3" TotalStatements="6" CoveragePercent="50">
+      <Type Name="Program" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+        <Method Name="Main(string[]):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+      </Type>
+      <Type Name="Utils" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+        <Method Name="Sum(int,int):int" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+      </Type>
+    </Namespace>
+  </Assembly>
+  <Assembly Name="UnitTestProject" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+    <Namespace Name="UnitTestProject" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+      <Type Name="UnitTest1" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+        <Method Name="TestMethod1():void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+      </Type>
+    </Namespace>
+  </Assembly>
+</Root>
